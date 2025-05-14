@@ -1,6 +1,6 @@
 About
 ===
-Phong Shadingx
+Phong Shading
 ---
 How to Use
 ===
