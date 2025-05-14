@@ -1,4 +1,4 @@
-## CG_Assignment_6-3
+![image](https://github.com/user-attachments/assets/2b61ca14-a216-48c2-af06-0e920247ce3e)## CG_Assignment_6-3
 
 About
 ===
@@ -23,8 +23,19 @@ Explanation
 ---
 The key to Phong shading is to interpolate the normal vector for each pixel, and to use this interpolated normal vector and interpolated position to do light calculations directly from each pixel
 
-
-
 ![image](https://github.com/user-attachments/assets/e6bca9b2-a16d-491d-a016-a65f47aa1997)
+
+We're going to do shading calculations for each pixel, so there's no need for a vertex color calculation
+
+![image](https://github.com/user-attachments/assets/0c51d3f9-2122-44e3-95ec-6051a64fb8b6)
+
+In the same way we interpolated colors in Q2, we calculate frag_pos_world_interpolated using the center-of-gravity coordinates of the current pixel and the clip space w value.
+The three vertices are perspectively corrected and normalized.
+
+Using two interpolated values to call a Phong-Shading function to obtain a phong color
+
+![image](https://github.com/user-attachments/assets/71b94aa4-8135-4932-994f-8a83581e908c)
+
+
 
 
