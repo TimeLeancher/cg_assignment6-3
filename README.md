@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/2b61ca14-a216-48c2-af06-0e920247ce3e)## CG_Assignment_6-3
-
 About
 ===
 Phong Shadingx
